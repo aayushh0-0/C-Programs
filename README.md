@@ -1,5 +1,5 @@
 # C-Programs
-Ayush
+Ayush Rawat
 <br>
 Basic programs for C language
 
