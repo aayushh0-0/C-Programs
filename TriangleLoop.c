@@ -1,21 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
     int n;
-    printf("Enter the Size of the Triangle\n");
+    printf("Enter the Size of the Traingle \n");
     scanf("%d",&n);
-    int temp =n;
-    for(int i=0;i<n;i++)
+
+    for(int i=1;i<=n;i++)
     {
-        for(int j=0;j<=i;j++)
+        for(int j=1;j<=n-i;j++)
         {
-            for(int k=1;k<=(temp);k++)
-            {
-                printf(" ");
-            }
-            temp--;
+            printf(" ");
+        }
+        for(int k=1;k<=2*i-1;k++)
+        {
             printf("*");
         }
         printf("\n");
     }
+
+    return 0;
 }
