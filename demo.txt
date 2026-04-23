@@ -1,0 +1,2 @@
+this is the demonstration of File handling process  
+where the text is taken by the user and is printed in the main file which is being pointed
